@@ -1,14 +1,19 @@
 ﻿body
 {
     background-image: linear-gradient(silver, gold);
+    padding: 0px 3%;
 }
 h3{
     font-size: 42px;
     text-decoration: underline;
+    padding-left: 15%;
 }
 p{
     font-size: 28px;
     text-indent: 5%;
+}
+footer{
+    border-top: 5px solid grey;
 }
 a:link{
     color: blue;
@@ -26,14 +31,50 @@ a:hover{
 #img-div {
     text-align: center;
 }
-#img{
+#image{
     border: 2px solid black;
-    border-radius: 5%;
+    border-radius: 10%;
+}
+#img-bar{
+    border: 2px solid black;
+    border-radius: 10%;
+}
+#img-round{
+    border: 5px solid black;
+    border-radius: 50%;
+}
+#img-eagle{
+    border: 5px solid black;
 }
 #cap-list{
     text-decoration: underline;
     font-size: 32px;
+    padding-left: 40%;
 }
 #list{
     font-size: 28px;
+    padding-left: 40%;
+    margin-top: -30px;
+}
+#container{
+    text-align: center;
+}
+@media(max-width: 800px){
+    h3{
+        font-size: 36px;
+    }
+    p{
+        font-size: 24px;
+    }
+    #image {
+        width: 75%;
+    }
+    #list{
+        text-align: left;
+        padding: 0px;
+    }
+    #cap-list{
+        text-align: left;
+        padding: 0px;
+    }
 }
