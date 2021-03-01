@@ -1,13 +1,29 @@
 ﻿body
 {
+    background-image: linear-gradient(silver, gold);
+}
+h3{
+    font-size: 42px;
+    text-decoration: underline;
+}
+p{
+    font-size: 28px;
 }
 #title{
     text-align: center;
-    font-size: 54px;
+    font-size: 68px;
 }
 #img-div {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
+}
+#img{
+    border: 2px solid black;
+    border-radius: 5%;
+}
+#cap-list{
+    text-decoration: underline;
+    font-size: 32px;
+}
+#list{
+    font-size: 28px;
 }
