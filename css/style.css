@@ -8,6 +8,16 @@ h3{
 }
 p{
     font-size: 28px;
+    text-indent: 5%;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: #ff71ef;
+}
+a:hover{
+    color: #ff0000;
 }
 #title{
     text-align: center;
